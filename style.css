@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(131, 64, 2);
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color: white;
+    position:absolute;
+    left:120px;
+    top:0;
+    line-height:80px;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right:4vw;
+}
+
+nav{
+    background-color: rgba(212, 89, 7, 0.89);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
